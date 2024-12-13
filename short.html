@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 min read books - Advanced Category | EDU Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../CSS/navfoot.css">
+    <link rel="stylesheet" href="../CSS/externalcss.css">
+    <link rel="stylesheet" href="../CSS/books.css">
+    <link rel="icon" type="image/x-icon" href="../Icon/favicon.ico">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-white">
+        <a class="navbar-brand" href="#">
+            <img src="../Image/Logo.png" alt="Logo" width="50" height="50">
+            <a class="navbar-brand" href="index.html"><span class="navbar-text">EDUL</span></a>
+        </a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+                    </path>
+                </svg>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto align-items-center">
+                <li class="nav-item"><a class="nav-link" href="../pages/services.html">Library Guide</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/about.html">About Us</a></li>
+                <div class="edu-link-foundation">
+                    <li class="nav-item"><a class="nav-link edu-library-link" href="../index.html">EDU LIBRARY</a></li>
+                </div>
+                <li class="nav-item"><a class="nav-link" href="../pages/books.html">Books</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Advanced Category</a>
+
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../pages/extended.html#stu">For Students</a>
+                        <a class="dropdown-item" href="../pages/extended.html#par">For Parents</a>
+                        <a class="dropdown-item" href="../pages/extended.html#tea">For Teachers</a>
+                        <a class="dropdown-item" href="../pages/extended.html#5min">For 5mins</a>
+                        <a class="dropdown-item" href="../pages/extended.html#lin">For Linguist</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link btn btn-outline-primary" href="../pages/login.html">Sign in/up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row tab-books">
+        <div class="col-md-4 sidebar-books">
+            <h2>5 min read Books</h2>
+            <ul class="nav nav-tabs nav-pills flex-column sidebar-books-menu">
+                <li class="nav-item book-genre sidebar-link active" onclick="active();" data-filter="all">General</li>
+                <li class="nav-item book-genre sidebar-link" onclick="active();" data-filter="educational">Educational</li>
+                <li class="nav-item book-genre sidebar-link" onclick="active();" data-filter="health">All about Health</li>
+            </ul>
+        </div>
+        <div class="col-md-8 books">
+            <h2 id="bookGenre">General</h2>
+            <div class="tab-content-books d-flex flex-wrap justify-content-center">
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/10 Nutrition myths.png" alt="">
+                    </div>
+                    <h3>10 Nutrition Myths</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1xgcu-2Q4TyrA-E-pu-K3LZcB1mRFwn6m/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/10 Years Younger When You Lived in Underwater.png" alt="">
+                    </div>
+                    <h3>10 Years Younger When You Lived in Underwater</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1OLRpuOiHWxmsBX_TgjhpdTPuUzJ2_nFO/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/5 numbers linked to ideal heart.png" alt="">
+                    </div>
+                    <h3>5 Numbers linked to idal heart</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/11aLWBM8v2bKluy5DpMMHZKZgeSnkxURs/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/Can robots shape the future.png" alt="">
+                    </div>
+                    <h3>Can robots shape the future?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1b2EAn35S5YncR_vK9QylIpmyyCSwBwGE/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/All about coffee.png" alt="">
+                    </div>
+                    <h3>All about coffee</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1qH5BNx4tzvpm4AJcDUYfZ6h68XWYs9U9/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Why is daylight saving time.png" alt="">
+                    </div>
+                    <h3>When is daylight saving time?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1npmL0wuXnrAY9suXCTFvfwIOLmHYC9KQ/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/All about diet.png" alt="">
+                    </div>
+                    <h3>All about diet</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1YBK3cblnpSlTvFxS0NUdA-Gp1znMvLjQ/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/ChatGPT is banned in Italy over privacy concerns.png" alt="">
+                    </div>
+                    <h3>ChatGPT is banned in Italy over privacy concerns</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1A7eC1v4XmGEVJZSThwWvC6v4BXcq_wro/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/Don't be afraid of iPhone_s NameDrop Feature.png" alt="">
+                    </div>
+                    <h3>Don't be afraid of iPhone's Namedrop Feature</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1rnCEtHbSZp2qT6sT-z6c77rc48lXNpxR/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Controlling blood pressure.png" alt="">
+                    </div>
+                    <h3>Controlling blood pressure</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/14IgSJA55JCGQ0GH9xZCrLk5G4OA1G9BX/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/Europe to ChatGPT - Disclose your sources.png" alt="">
+                    </div>
+                    <h3>Europe to ChatGPT - Disclose your sources</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1NQQj8yGHeBH34oIuDu8jLK9SeQtoZsgy/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/Gemini AI, Launched by Google.png" alt="">
+                    </div>
+                    <h3>Gemini AI, Launched by Google</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1PoYsWP1E1aQPH_5PF8A68CNO-bY4x9eq/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/Harvard and Caltech Will Require Test Scores for Admission.png" alt="">
+                    </div>
+                    <h3>Harvard and Caltech Will Require Test Scores for Admission</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1dH5EmUB_d67PUpvoGP7ExrkTH-nzQzQ9/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Could eating less help you live longer.png" alt="">
+                    </div>
+                    <h3>Could eating less help you live longer</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1GRebrwCKs3xQfh-9mrVke7SnDUkVo4Db/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/How AI & Algorithms are changing our lives.png" alt="">
+                    </div>
+                    <h3>How AI & Algorithms are changing our lives?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/14SDkxxkpKCH6esQkYUYOPzc2oHku4Gcq/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Eating more tomatoes may help lower high blood pressure.png" alt="">
+                    </div>
+                    <h3>Eating more tomatoes may help lower high blood pressure</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1Qeq92lfwKEMIE-nhMjqMhdxWg82SB3de/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/Largest known ocean reptile.png" alt="">
+                    </div>
+                    <h3>Largest known Ocean Reptile</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18vb5XzdxGaC0slvlEjSEGGryCG2kTx0b/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Exercises can boost your memory and thinking.png" alt="">
+                    </div>
+                    <h3>Exercises can boost your memory and thinking</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1xE-fyxy6EjKMI8yxtxIAOsyTykvbGKfa/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/Mars rocks return mission.png" alt="">
+                    </div>
+                    <h3>Mars rocks return mission</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1n3oZzLPrazjFh7X4IIiIMy1z0j_dwKMB/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/food diary for the good health-harvard-health.png" alt="">
+                    </div>
+                    <h3>Food Diary for the good health-harvard-health</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18x7QPo3dKRcebZ52YzHOBLxYTLAq8SlB/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/for your eyesight.png" alt="">
+                    </div>
+                    <h3>For your eyesight</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1qYWUpW-uYfrzzquAHBeZ0Mv4IK3YC-3p/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/Singapore workers are the world's fastest in adopting AI skills.png" alt="">
+                    </div>
+                    <h3>Singapore workers are the world's fastest in adopting AI skills</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1MYuUcvdGvKHGWIQ8kNMCBPJ3ypNbpONR/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Genes and Nutritions shape baby brain growth.png" alt="">
+                    </div>
+                    <h3>Genes and Nutrition shape baby brain growth</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1gDtKzJ5enycZuI4stgC-bgDzDaj6s9fz/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Health and happiness go hand in hand.png" alt="">
+                    </div>
+                    <h3>Health and Happiness go hand in hand</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1vmogIPtWafLogRdkOyW75Nk1QG7zskJn/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/The mummified mexican alien.png" alt="">
+                    </div>
+                    <h3>The mummified Mexican Alien</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1gR1LV64lSpfpne8Flv0Ra3gjfw-0TbDn/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Healthy brain, healthier heart.png" alt="">
+                    </div>
+                    <h3>Healthy brain, healthier heart</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1JGqeGGiQ-vZyPD6Km7ZPdXCc1qRXPSwB/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Holiday eating to boost immunity.png" alt="">
+                    </div>
+                    <h3>Holiday eating to boost immunity</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1MuG2ugPQjA7Qdz5axQOZsf1v4gSt4mDL/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/The New Everyday Reality of Service Robots.png" alt="">
+                    </div>
+                    <h3>The New everyday reality of service robots</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1DJZKS67mTa4UqsXz_9mtwCwmiju0Gvot/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/How diets impact brain health.png" alt="">
+                    </div>
+                    <h3>How diets impact brain health</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1LNGeEkifKgs0YZWGg2QjfI0aupG5vchS/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/How do my calorie need change as I age.png" alt="">
+                    </div>
+                    <h3>How do my calorie need change as I age?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1Q49X7lNVDjObU2JK31afpPFcETx078uq/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-3/This shark lives 400 years. Its DNA explains why.png" alt="">
+                    </div>
+                    <h3>This shark lives 400years. Its DNA explains why</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/17NfU1ka0e2nZl_GZE_VMvsu6SWHBXDo-/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/How healthy are apples.png" alt="">
+                    </div>
+                    <h3>How healthy are apples?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1zS2v89FeJtpdeDgcV7Dr_d0UzAyHvIaG/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/How healthy are avocadoes.png" alt="">
+                    </div>
+                    <h3>How healthy are avocadoes?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1TayWTpP6XsH9lO6moXwuyEzy4TYvF7Mu/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/How much coffee is too much.png" alt="">
+                    </div>
+                    <h3>How much coffee is too much?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1nlsiC_lxABGzSPwpeQ4uZyXjkL8xqj4K/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/How your diet affects your skin.png" alt="">
+                    </div>
+                    <h3>HOw your diet affects your skin</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1fsSUIK6OpLEgrqNpWQ4-xMoUgwSCKXno/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/How your protein needs change as you age.png" alt="">
+                    </div>
+                    <h3>How your protein needs change as you age</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1R5bCrqeYqNAxcfvoOSRpQfHTqUwhcwRg/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Is it bad to wash your hair every day.png" alt="">
+                    </div>
+                    <h3>Is it bad to wash your hair every day?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1GFpDcwmWihRV5jlF8JoXr7IcCZ1MTEDs/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Is Matcha good for you.png" alt="">
+                    </div>
+                    <h3>Is Matcha good for you?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1U7lc2BY-Bf1qypFRjmZWAqmtdVGsaAUI/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Live Music's unique spark- A brain's emotional journey.png" alt="">
+                    </div>
+                    <h3>Live Music's unique spark- A brain's emotional journey</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/14IdQVsrXaQzknQsLmt1vNlA64jjdwwAz/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/one more reason to brush your teeth.png" alt="">
+                    </div>
+                    <h3>One more reason to brush your teeth</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1YqQNWn4s9go5KZSqUWt53UODCeUhd9Eh/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Overeating - Mindfulness exercise.png" alt="">
+                    </div>
+                    <h3>Overeating - Mindfulness exercises may help</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1tMvSxfCSyiffI7sU4vUgKnW083Uo6_jD/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Should you exercise when you are sick.png" alt="">
+                    </div>
+                    <h3>Should you exercise when you are sick?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1bhH1RDDTROEgxMKXFkbCyYcPfU8OWyT8/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/The average human body temperature is not 98.6 degrees.png" alt="">
+                    </div>
+                    <h3>The average human body temperature is not 98.6 degrees!</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1zog4O-qdohUHcaYf0vTi66XlFL-m3zz5/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/The power of the pen.png" alt="">
+                    </div>
+                    <h3>The power of the pen</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1MEYh-RMD7Y9__Qt_OpPhBY6LaLMojF3U/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/The sleep habits that is more important than getting 8 hours.png" alt="">
+                    </div>
+                    <h3>The sleep habits that is more important than getting 8 hours.</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/16HFSFf3LQWuzP1XkJJAASicRsLcp8Gwc/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="educational health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/The smart phone in you hand changes how you walk.png" alt="">
+                    </div>
+                    <h3>The smart phone in your hand changes how you walk</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1al6I2zTLBjVpfUwCw3rq0pu5UXz5sUS8/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/What to know about the new covid varients.png" alt="">
+                    </div>
+                    <h3>The New Covid Varients</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1KFPhvUYoP0cKb6xeeJzngrPmOK9_9noF/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Why do I wake up right before my alarm.png" alt="">
+                    </div>
+                    <h3>WHy do I wake up right before my alarm?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1qMJmcad2J5TrspmbJ_xLSMETq9wsUBgW/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="health educational book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../bookImages-2/Why is Mediterranean Diet good for you.png" alt="">
+                    </div>
+                    <h3>Why is Mediterranean Diet really good for you?</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1kAwqbdNiUYNsqdtiQxWkcyKkUNNhafO1/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-center copycredit"><img class="copyimg" src="../Image/copyright lgo.png" alt="">All provided by Principal Thiha Win, EDUSN</h2>
+        </div>
+    </div>
+    <div class="f-1">
+        <!--floating btn-->
+        <button class="btn floating-btn float-btn-II" onclick="home();"><p class="float-btn-text text-light"><: <i class="bi bi-house-fill"></i></p></button>
+    </div>
+    <script src="../JS/externalJs.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <footer class="text-center text-lg-start py-4 mt-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>About EDU Library</h5>
+                    <p>Your one-stop solution for accessible educational resources. EDU Library is committed to
+                        providing free and accessible learning materials for students and educators worldwide.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-dark">EDU Library Homepage</a></li>
+                        <li><a href="../pages/services.html" class="text-dark">LIbrary Guide</a></li>
+                        <li><a href="../pages/about.html" class="text-dark">About Us</a></li>
+                        <li><a href="../pages/books.html" class="text-dark">Books</a></li>
+                        <li><a href="../pages/extended.html" class="text-dark">Advanced Category</a></li>
+                        <li><a href="FAQ.html" class="text-dark">FAQ</a></li>
+                        <li><a href="../References.docx" class="text-dark">Citation</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contact Us</h5>
+                    <p>Email: support@edulibrary.com</p>
+                    <p>Phone: +959773337073</p>
+                    <p>Phone: +66618845790</p>
+                    <div>
+                        <a href="#" class="text-dark me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="text-center bg-dark text-white py-2">
+        © 2024 EDU Library. All rights reserved.
+    </div>
+</body>
+</html>

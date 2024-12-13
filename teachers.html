@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers - Advanced Category | EDU Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../CSS/navfoot.css">
+    <link rel="stylesheet" href="../CSS/externalcss.css">
+    <link rel="stylesheet" href="../CSS/books.css">
+    <link rel="icon" type="image/x-icon" href="../Icon/favicon.ico">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-white">
+        <a class="navbar-brand" href="#">
+            <img src="../Image/Logo.png" alt="Logo" width="50" height="50">
+            <a class="navbar-brand" href="index.html"><span class="navbar-text">EDUL</span></a>
+        </a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+                    </path>
+                </svg>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto align-items-center">
+                <li class="nav-item"><a class="nav-link" href="../pages/services.html">Library Guide</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/about.html">About Us</a></li>
+                <div class="edu-link-foundation">
+                    <li class="nav-item"><a class="nav-link edu-library-link" href="../index.html">EDU LIBRARY</a></li>
+                </div>
+                <li class="nav-item"><a class="nav-link" href="../pages/books.html">Books</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Advanced Category</a>
+
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../pages/extended.html#stu">For Students</a>
+                        <a class="dropdown-item" href="../pages/extended.html#par">For Parents</a>
+                        <a class="dropdown-item" href="../pages/extended.html#tea">For Teachers</a>
+                        <a class="dropdown-item" href="../pages/extended.html#5min">For 5mins</a>
+                        <a class="dropdown-item" href="../pages/extended.html#lin">For Linguist</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link btn btn-outline-primary" href="../pages/login.html">Sign in/up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row tab-books">
+        <div class="col-md-4 sidebar-books">
+            <h2>Books for Teachers</h2>
+            <ul class="nav nav-tabs nav-pills flex-column sidebar-books-menu">
+                <li class="nav-item book-genre sidebar-link active" onclick="active();" data-filter="all">General</li>
+                <li class="nav-item book-genre sidebar-link" onclick="active();" data-filter="short">Short reads</li>
+                <li class="nav-item book-genre sidebar-link" onclick="active();" data-filter="guide">Teachers' guide</li>
+                <li class="nav-item book-genre sidebar-link" onclick="active();" data-filter="students">All about students</li>
+            </ul>
+        </div>
+        <div class="col-md-8 books">
+            <h2 id="bookGenre">General</h2>
+            <div class="tab-content-books d-flex flex-wrap justify-content-center">
+                <div class="short book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/6 ways to use ChatGPT to save time.png" alt="">
+                    </div>
+                    <h3>6 ways chatGPT can save Teachers' time</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1AcIRINBz8A_OqjgdxNpbfFIO3zBlSsQJ/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/1.png" alt="">
+                    </div>
+                    <h3>Mental Health and Physical activity among adolescents</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/16yPWnP58kWOy8vnc1kMKLQyfE5sTZb8M/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/100 teaching tips.png" alt="">
+                    </div>
+                    <h3>100 teaching tips</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1ow5NYqZk_1UbwcPa9g_97zpsr8uEso4u/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="short book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image" src="../parents/SAT exams will now be fully online.png" alt="">
+                    </div>
+                    <h3>SAT exams will now be fully online</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1BsSmZ5RK3N1GXfYjqu18hvZ_khXWrL4U/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="short book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/8 Proactive classroom management tips.png" alt="">
+                    </div>
+                    <h3>8 Proactive classroom management tips for teachers</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1U1VzfC7DT5V7BSo--kAi7Tq8vLzL-Ymg/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/A guide to teaching practise.png" alt="">
+                    </div>
+                    <h3>A guide to teaching practise</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1CgX8Zh413fusBZDFcmgjemDDQDN0DoG5/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/2.png" alt="">
+                    </div>
+                    <h3>Developing adolescents</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/16wNyXC8PgWZw42_xyj5L3iQQ_TOH_bud/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="short book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Using AI to help.png" alt="">
+                    </div>
+                    <h3>Using AI tools to lesson plan</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1u3ceSJMEEXNNCkfBLsd2MSHISiM1fur1/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Advice to new teachers.png" alt="">
+                    </div>
+                    <h3>Advice to new teachers</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1le6izMxRLdwylZgkIzV6UeZN-tUcrQSb/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/3.png" alt="">
+                    </div>
+                    <h3>Childhood and adolescent psychology</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18756utkiktFU9xsrViq6QwK2FiiW2vh-/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="short book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Welcoming students with a smile.png" alt="">
+                    </div>
+                    <h3>Welcoming students with a smile</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1cE2UouTVXEgtZxpdbMeGYoln_JqjrYl_/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="short book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/How to stay connected to students as a new adminstrator.png" alt="">
+                    </div>
+                    <h3>Connecting with students as a new administrator</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1o0Ea8yPSk4o4f-U8h-IRGc9BkZqDtaJ7/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/4.png" alt="">
+                    </div>
+                    <h3>Depression among students</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18AmEFOFms7S7MZipS4uTBrOa9t8vcQHw/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Effective teaching and successful learning.png" alt="">
+                    </div>
+                    <h3>Effective teaching and successful learning</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1Z9WMcr1WzY3ddQNgs04JxG9q-jADqtwn/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="short book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/When adminstrators keep teaching.png" alt="">
+                    </div>
+                    <h3>When administrators keep teaching</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1EQHJWWHqQhMhDGwmqm3y7aRy2gDGRF6e/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/5.png" alt="">
+                    </div>
+                    <h3>mental health problems among students</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18F6s0ee4VxVPSFdBSHNd5IY7OEQNDJCy/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="short book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/How schools should respond to ChatGPT.png" alt="">
+                    </div>
+                    <h3>How should schools respond to ChatGPT</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1iKo4UoDl76FdD1h8nikkjo4fT0QuRwSW/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/6.png" alt="">
+                    </div>
+                    <h3>Understanding Depression among students</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18PxWFFq12cM5v6hTqSU8KzU-iX5PbaXu/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/7.png" alt="">
+                    </div>
+                    <h3>self and others in adolescents</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18QlkQgC1H5Ouvzn41X7o4iaQKs_K6ijb/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Essential teaching skills.png" alt="">
+                    </div>
+                    <h3>Essential teaching skills</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1AUb2YL8nOUVdGzbaZUuKgv2fXwAtUXMh/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/8.png" alt="">
+                    </div>
+                    <h3>adolescents and academic well-being</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18S54eT5Yivi8_DwQ1eu_Fn07EG_E4NOQ/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="short book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/ChatGPT vs CheatGPT.png" alt="">
+                    </div>
+                    <h3>ChatGPT wrote my AP Essay and I passed</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1WZueH6R8dX-8j3ZanBJc2MhgJGzTvOUO/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/9.png" alt="">
+                    </div>
+                    <h3>Depression among students - for schools</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18SLtD-iBEi9rZdi29_iw5nk8LQqP05Th/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/flip your classroom.png" alt="">
+                    </div>
+                    <h3>Flip your classroom</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1B_JDsqqQckz4Lk-CDkJTQODHtyXJFO5_/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/10.png" alt="">
+                    </div>
+                    <h3>Psychology of adolescents</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18TEEqvbCdoG1tr1GghaxO10ZeJGAcKae/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/11.png" alt="">
+                    </div>
+                    <h3>The Mental Health - adolescents</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18W5-2nGKNyfBjH-cHTQ9mRnu4WyEI7eG/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="short book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Test preparation.png" alt="">
+                    </div>
+                    <h3>Test Preparation checklist</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1V2oVnU3ZdaOrKnXBDohMrijqWznVac7-/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Practi1.png" alt="">
+                    </div>
+                    <h3>Practical advice to teachers/h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1kNoHMFcg8DDz-QSFE8mUeByWhTeem9lM/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/12.png" alt="">
+                    </div>
+                    <h3>Effectiveness of psychological interventions for children</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18YNdJW-t1TuMAHJ82o7187pYY2Rv6bKl/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/ReallyGoodStuff.png" alt="">
+                    </div>
+                    <h3>Really Good Stuff</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1xBEONiZNBGcV4YPAlhB78fG_t1CdIrGW/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/13.png" alt="">
+                    </div>
+                    <h3>A study of psychological well-being among youths</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18Z5ySYWSe6QLV-ifQlgEuZDkbYuM9IPi/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Teachers' guide to PBL.png" alt="">
+                    </div>
+                    <h3>Teachers' guide to PBL</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1YlsZMMF2mZl1GvLLCJxVWnHW4jbVX7tp/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/14.png" alt="">
+                    </div>
+                    <h3>Anxiety and Depression signs among youths</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18r6ndDczumxsMGXOHFcY94wxXkpnzHBv/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers//Teaching for learning in a fast changing environment.png" alt="">
+                    </div>
+                    <h3>Teaching for learning in a fast changing environment</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1wBh4s-WyjR4Mzd9thTYXHhLg4H8G4dk4/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/15.png" alt="">
+                    </div>
+                    <h3>adolescent psychological, social and cognitive Development</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/18uMovUlKWtdfuL2iR6nZ4Np1aWczfpyI/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/16.png" alt="">
+                    </div>
+                    <h3>adolescent Mental health - Time for action</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/191kCkhOnhEwqLCzRznKBtMqH4GdrMX7z/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/17.png" alt="">
+                    </div>
+                    <h3>adolescent mental health in European Regions</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/195JpDpzVX6_A3X-tXevNvATvf84kLmmj/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Teaching skills 2nd TB.png" alt="">
+                    </div>
+                    <h3>Teaching skills 2nd TB</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1ohvuQnnBewlCKviciNrpNYGhOjSJLvd6/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Teaching skills.png" alt="">
+                    </div>
+                    <h3>Teaching skills</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1_egvaYAgTDDhXa3qxtYIqak2TI5OeNZA/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/Make Learning a Lifelong habit.png" alt="">
+                    </div>
+                    <h3>Make Learning a lifelong habit - For students</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1t9O4tXllYH5PierYpJb3BqY54gH77yeV/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="students book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../All about teens/Teens Vs AI Education.png" alt="">
+                    </div>
+                    <h3>Teens Vs AI Education</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1n4_vdL7znCihVAh10PRKJz_Dw-luh1Xi/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/The essential teaching skills ebook.png" alt="">
+                    </div>
+                    <h3>The essential teaching skills ebook</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1ZklNAfsx36zR9Lt0HWm9frgdEzeiNaqW/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+                <div class="guide book border shadow-sm rounded-lg">
+                    <div class="row">
+                        <img class="book-image-II" src="../teachers/Weareteachers-guide-to-positive-school-culture.png" alt="">
+                    </div>
+                    <h3>Weare teachers guide to positive school culture</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1yD04PAMAIoPULsZJ7STkcixDMznJKN8P/view?usp=sharing">Read</a>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-center copycredit"><img class="copyimg" src="../Image/copyright lgo.png" alt="">Credit to Principal Thiha Win, EDUSN</h2>
+            <h2 class="text-center copycredit"><img class="copyimg" src="../Image/Anna.jfif" alt="">Credit to Anna's Archive Library</h2>
+            <h2 class="text-center copycredit"><img class="copyimg" src="../Image/infobooks.png" alt="">Credit to InfoBooks Library</h2>
+        </div>
+    </div>
+    <div class="f-1">
+        <!--floating btn-->
+        <button class="btn floating-btn float-btn-II" onclick="home();"><p class="float-btn-text text-light"><: <i class="bi bi-house-fill"></i></p></button>
+    </div>
+    <script src="../JS/externalJs.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+    <footer class="text-center text-lg-start  mt-5 py-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>About EDU Library</h5>
+                    <p>Your one-stop solution for accessible educational resources. EDU Library is committed to
+                        providing free and accessible learning materials for students and educators worldwide.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-dark">EDU Library Homepage</a></li>
+                        <li><a href="../pages/services.html" class="text-dark">LIbrary Guide</a></li>
+                        <li><a href="../pages/about.html" class="text-dark">About Us</a></li>
+                        <li><a href="../pages/books.html" class="text-dark">Books</a></li>
+                        <li><a href="../pages/extended.html" class="text-dark">Advanced Category</a></li>
+                        <li><a href="FAQ.html" class="text-dark">FAQ</a></li>
+                        <li><a href="../References.docx" class="text-dark">Citation</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contact Us</h5>
+                    <p>Email: support@edulibrary.com</p>
+                    <p>Phone: +959773337073</p>
+                    <p>Phone: +66618845790</p>
+                    <div>
+                        <a href="#" class="text-dark me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="text-center bg-dark text-white py-2">
+        © 2024 EDU Library. All rights reserved.
+    </div>
+</body>
+</html>
